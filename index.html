@@ -2,6 +2,40 @@
 <html lang="en">
 
 <head>
+    <style>
+        h1 { color: blueviolet; text-align: center;
+        }
+
+     .left {
+        float: left
+    ; width: 300px; border: 3px burlywood; padding: 10px
+    ;
+     }
+
+        div {
+            margin: auto;
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+        h3 {text-decoration: underline;}
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,65 +45,93 @@
 <body>
 
     <h1>CV</h1>
+    <div class="left"><p>Toni Turunen <br>
+        13.12.1983 <br>
+        Marjotaipaleentie 1008 <br>
+        19650 Joutsa <br>
+        puh. 044 306 8576 <br>
+        toniturunen1@gmail.com
+    </p></div>
+        
+    
+    <br><br><br>
 
-    <p>Toni Turunen</p>
-    <p>Marjotaipaleentie 1008</p>
-    <p>19650 Joutsa</p>
-    <p>puh. 044 306 8576</p>
-    <p>toniturunen1@gmail.com</p>
-
-    <p>Olen 39-vuotias joutsalainen metallimies ja baarimestari. 2013 valmistuin hitsariksi, mutta työkokemusta en ole
+   <p> Olen 39-vuotias joutsalainen metallimies ja baarimestari. 2013 valmistuin hitsariksi, mutta työkokemusta en
+        ole
         vielä ehtinyt hankkimaan paljoa. Ravintola-alalla olen ollut vuodesta 2004 monissa eri tehtävissä. Työntekijänä
         olen tehokas ja innovatiivinen sekä tottunut työskentelemään paineen alla. Tavoitteenani on työskennellä
-        mielenkiintoisten ja haastavien työtehtävien parissa, jotka tukevat ammatillista kehittymistäni.
-    </p>
-<HR></HR>
-    <h3>TYÖKOKEMUS</h3>
+        mielenkiintoisten ja haastavien työtehtävien parissa, jotka tukevat ammatillista kehittymistäni.</p>
 
-    <p>Karoliinan Kahvimylly ja Kestikievari /
-        Kahvilatyöntekijä <br> Kahvila tuotteiden ja ruoka-annosten myynti ja tarjoilu sekä Tilitys. <br>
-        6.5.2022 - 30.9.2022
-    </p>
-    
+    <HR> <hr>
+    <hr><br>
+    </HR>
+    <h3>TYÖKOKEMUS:</h3>
 
-    <p>WorkerFinland / Pancho Villa Kankaanpää /
-        Tarjoilijana <br>
-        Al a carte tarjoilua, tilitykset. <br>
-        10.11.2020 – 20.6.2021
-    </p>
+    <table>
+        <tr>
+            <th>Työpaikka ja kuvaus</th>
+            <th>ajankohta</th>
+        </tr>
 
-    <p>WorkPower Oy / Pomarkun Urakoitsijatarvike Oy /
-        Hitsaajana määräaikaisessa työsuhteessa <br> osien sarjahitsaamista mustasta raudasta. <br>
-        7.10.2019 – 5.4.2020
-    </p>
+        <tr>
+            <td>Karoliinan Kahvimylly ja Kestikievari /
+                Kahvilatyöntekijä <br> Kahvila tuotteiden ja ruoka-annosten myynti ja tarjoilu sekä Tilitys.</td>
+            <td style="color: red;"> 6.5.2022 - 30.9.2022</td>
+        </tr>
 
-    <p>Marainvest Oy / Baarimestari <br>
-        Vuorovastaavana baarin avaus sekä sulku, tein tilauksia ja tilitykset baarimyynnin ohessa ja vastasin ravintolan
-        siisteydestä sekä järjestyksen valvonnasta omassa vuorossani. <br>
-        10.6.2015 – 16.10.2017
-    </p>
+        <tr>
+            <td> WorkerFinland / Pancho Villa Kankaanpää /
+                Tarjoilijana. <br> à la carte -tarjoilu, lounasbuffet myynti ja tilitys.</td>
+            <td style="color: red"> 10.11.2020 - 20.6.2021</td>
+        </tr>
 
-    <p>Cuppila Nousuvesi Oy / Baarimikko <br>
-        Vuorovastaavana baarin avaus sekä sulku, tein tilauksia ja tilitykset baarimyynnin ohessa ja vastasin ravintolan
-        siisteydestä sekä järjestyksen valvonnasta omassa vuorossani. <br>
-        1.6.2011 – 7.2015
-    </p>
+        <tr>
+            <td>WorkPower Oy / Pomarkun Urakoitsijatarvike Oy /
+                Hitsaajana määräaikaisessa työsuhteessa <br> osien sarjahitsaamista mustasta raudasta.</td>
+            <td style=" color: red">
+                7.10.2019 – 5.4.2020 </td>
+        </tr>
 
-    <p>Joy Madrid cafe Oy / Baarimikko <br>
-        Baarin avaus ja sulku, baarimyynti, siisteyden ylläpito ja oman pisteeni tilitys. <br>
-        17.11.2008 – 18.10.2009
-    </p>
+        <tr>
+            <td>Marainvest Oy / Baarimestari <br>
+                Vuorovastaavana baarin avaus sekä sulku, tein tilauksia ja tilitykset baarimyynnin ohessa ja vastasin
+                ravintolan
+                siisteydestä sekä järjestyksen valvonnasta omassa vuorossani.</td>
+            <td style="color: red">10.6.2015 – 16.10.2017</td>
+        </tr>
+        <tr>
+            <td>Cuppila Nousuvesi Oy / Baarimikko <br>
+                Vuorovastaavana baarin avaus sekä sulku, tein tilauksia ja tilitykset baarimyynnin ohessa ja vastasin
+                ravintolan
+                siisteydestä sekä järjestyksen valvonnasta omassa vuorossani.</td>
+            <td style="color: red;">30.5.2011 – 5.7.2015</td>
+        </tr>
+<tr><td>Joy Madrid cafe Oy / Baarimikko <br>
+    Baarin avaus ja sulku, baarimyynti, siisteyden ylläpito ja oman pisteeni tilitys.</td>
+    <td  style="color: red">17.11.2008 – 18.10.2009</td>
+</tr>
 
-    <p>Sokos Hotel Vantaa, Ravintola Sevilla / Tarjoilija <br>
-        Ruokatarjoilu ja tilitykset <br>
-        15.12.2007 – 17.11.2008</p>
+<tr><td>Sokos Hotel Vantaa, Ravintola Sevilla / Tarjoilija <br>
+    Ruokatarjoilu ja tilitykset</td>
 
-    <p>Staff Point, Staff +, HR House, Defcon, Opteam, Go On, Barona, Kairest Oy / Ravintolatyöntekijä <br>
-        Useat eri baarit ja ravintolat. Baarimyyntiä ja tarjoilua. <br>
-    </p>
+<td style="color: red;">
+    15.12.2007 – 17.11.2008</td></tr>
 
-<HR></HR>
-    <h3>KOULUTUS</h3>
+<tr><td>Staff Point, Staff +, HR House, Defcon, Opteam, Go On, Barona, Kairest Oy / Ravintolatyöntekijä <br>
+    Useat eri baarit ja ravintolat. Baarimyyntiä ja tarjoilua.</td>
+<td style="color: red">2004-2010</td></tr>
+
+
+    </table>
+
+
+
+
+
+
+    <HR>
+    </HR>
+    <h3>KOULUTUS:</h3>
 
     <p>Siilinjärven Lukio <br>
         Ylioppilas <br>
@@ -80,22 +142,28 @@
         Kone- ja metallialan perustutkinto <br>
         30.5.2013</p>
 
-        <HR></HR>
+    <HR>
+    </HR>
 
-    <h3>KURSSIT / LUPAKORTIT</h3>
+    <h3>KURSSIT / LUPAKORTIT:</h3>
 
-    <P>Hygieniapassi 2007, uusittu 04/2021
-    </P>
-    <P>Alkoholipassi 2007
-    </P>
+    <ul><li>Hygieniapassi 2007, uusittu 04/2021</li>
+    <li>Alkoholipassi 2007</li>
+    <li>Tulityöturvallisuuskortti, voimassa 04/2024</li>
+    <li>Sähkötyöturvallisuuskortti 2013, ei voimassa enää</li>
 
-    <P>Tulityöturvallisuuskortti, voimassa 04/2024
-    </P>
 
-    <P>Sähkötyöturvallisuuskortti 2013, ei voimassa enää
-    </P>
+    <li>Työturvallisuuskortti, voimassa 12/2023</li>
+    
+    </ul>
 
-    <P>Työturvallisuuskortti, voimassa 12/2023
+   
+    <h3>KIELITAITO:</h3>
+
+    <P>suomi äidinkieli <br>
+        englanti hyvä <br>
+        ruotsi perusteet <br>
+        viro auttava <br>
     </P>
 
 
